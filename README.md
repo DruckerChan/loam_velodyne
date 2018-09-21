@@ -9,6 +9,15 @@ Ask questions [here](https://github.com/laboshinl/loam_velodyne/issues/3).
 
 How to build with catkin:
 
+First, install the driver of Velodyne
+```
+sudo apt-get install ros-kinetic-velodyne
+cd ~/catkin_ws/src/
+git clone https://github.com/ros-drivers/velodyne.git
+cd ~/catkin_ws
+catkin_make
+```
+
 ```
 $ cd ~/catkin_ws/src/
 $ git clone https://github.com/laboshinl/loam_velodyne.git
